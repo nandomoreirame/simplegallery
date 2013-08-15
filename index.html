@@ -1,82 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-	<meta charset="ISO-8859-1"/>
+<head>
+<meta charset="UTF-8"/>
 
-        <title> Galeria de imagens Simples com jQuery </title>
+<title> jQuery Simple Image Gallery </title>
 
-	<meta name="description" content="Galeria de imagens Simples com jQuery - Desenvolvido por Fernando Moreira" />
-	<meta name="keywords" content="Galeria, imagens, jQuery" />
-	<meta name="robots" content="index,follow" />
-        <meta name="author" CONTENT="Fernando Moreira Costa" />
-        <meta name="contact" content="fernando@fernandomoreiraweb.com" />
+<meta name="author" CONTENT="Fernando Moreira Costa" />
+<meta name="contact" content="fernando@fernandomoreiraweb.com" />
 
-        <link href="style.css" rel="stylesheet" type="text/css" />
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-        <script type="text/javascript" src="js/events.js"></script>
-    </head>
-    <body>
-        <section id="main">
+<meta name="robots" content="noindex,nofollow" />
 
-            <header>
-                <h1> Galeria de imagens Simples </h1>
-            </header>
-            <div class="clear"></div>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/simplegallery.js"></script>
+<script type="text/javascript" src="js/events.js"></script>
+</head>
+<body>
+    <section id="main">
 
-            <section id="slidetabs">
-                <div class="slide-conteudo">
-                    <a href="#" class="zoom-image">
-                        <img src="images/bigs/1.jpg" class="image_1 fade" alt="" />
-                        <span></span>
-                    </a>
-                    <a href="#" class="zoom-image">
-                        <img src="images/bigs/2.jpg" class="image_2 fade" style="display:none" alt="" />
-                        <span></span>
-                    </a>
-                    <a href="#" class="zoom-image">
-                        <img src="images/bigs/3.jpg" class="image_3 fade" style="display:none" alt="" />
-                        <span></span>
-                    </a>
-                    <a href="#" class="zoom-image">
-                        <img src="images/bigs/4.jpg" class="image_4 fade" style="display:none" alt="" />
-                        <span></span>
-                    </a>
-                </div>
+        <header>
+            <h1> jQuery Simple Image Gallery </h1>
+        </header>
 
-                <div class="clear"></div>
+        <div class="clear"></div>
 
-                <div class="slide-miniaturas">
-                    <div class="miniatura">
-                        <a href="#" rel="1">
-                            <img src="images/thumbs/1.jpg" id="image_1" alt="" />
-                        </a>
-                    </div>
-                    <div class="miniatura">
-                        <a href="#" rel="2">
-                            <img src="images/thumbs/2.jpg" id="image_2" alt="" />
-                        </a>
-                    </div>
-                    <div class="miniatura">
-                        <a href="#" rel="3">
-                            <img src="images/thumbs/3.jpg" id="image_3" alt="" />
-                        </a>
-                    </div>
-                    <div class="miniatura ultimo">
-                        <a href="#" rel="4">
-                            <img src="images/thumbs/4.jpg" id="image_4" alt="" />
-                        </a>
-                    </div>
-                </div>
-            </section>
+        <section id="gallery">
+            <div class="gall-content">
+                <img src="images/bigs/1.jpg" class="image_1" alt="" />
+                <img src="images/bigs/2.jpg" class="image_2" style="display:none" alt="" />
+                <img src="images/bigs/3.jpg" class="image_3" style="display:none" alt="" />
+                <img src="images/bigs/4.jpg" class="image_4" style="display:none" alt="" />
+            </div>
 
             <div class="clear"></div>
 
-            <footer class="footer">
-                <h3><a href="http://www.box.com/s/10mo0vlcgalqcgbhkj0i" target="_blank">Download</a></h3>
-                <p>Desenvolvido por <a href="http://fernandomoreiraweb.com/" target="_blank">Fernando Moreira</a></p>
-            </footer>
-
+            <div class="gall-thumbnail">
+                <div class="thumb">
+                    <a href="#" rel="1">
+                        <img src="images/thumbs/1.jpg" id="thumb_1" alt="" />
+                    </a>
+                </div>
+                <div class="thumb">
+                    <a href="#" rel="2">
+                        <img src="images/thumbs/2.jpg" id="thumb_2" alt="" />
+                    </a>
+                </div>
+                <div class="thumb">
+                    <a href="#" rel="3">
+                        <img src="images/thumbs/3.jpg" id="thumb_3" alt="" />
+                    </a>
+                </div>
+                <div class="thumb last">
+                    <a href="#" rel="4">
+                        <img src="images/thumbs/4.jpg" id="thumb_4" alt="" />
+                    </a>
+                </div>
+            </div>
         </section>
-    </body>
+
+        <div class="clear"></div>
+
+        <footer class="footer">
+            <h3><a href="http://www.box.com/s/10mo0vlcgalqcgbhkj0i" target="_blank">Download</a></h3>
+            <p>by <a href="http://fernandomoreiraweb.com/" target="_blank">fernando-dev</a></p>
+        </footer>
+
+    </section>
+</body>
 </html>
 

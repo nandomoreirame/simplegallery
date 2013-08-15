@@ -1,0 +1,2 @@
+jQuery Simple Image Gallery
+===========================
