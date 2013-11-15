@@ -5,7 +5,11 @@ Installation
 ============
 
 * Clone the git repo - `git clone https://github.com/fernando-dev/simplegallery.git` - or [download it](https://github.com/fernando-dev/simplegallery/archive/master.zip)
-* includes `simplegallery.js` between `<head>` and `</head>` 
+* includes `simplegallery.js` between `<head>` and `</head>`
+
+Demo
+====
+* [demo](http://fernandomoreiraweb.com/demo/simplegallery/)
 
 Usage
 =====
