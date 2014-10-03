@@ -24,12 +24,12 @@
 
             $(settings.gallthumb).click(function() {
 
-                $(settings.gallcontent).find('img').fadeOut(settings.galltime).hide();
+                $(settings.gallcontent).find('img').stop(true,true).fadeOut(settings.galltime).hide();
 
                 var img_attr = $(this).find('img').attr("id"),
                     image_id = img_attr.replace('thumb_', '');
 
-                $('.image_' + image_id + '').fadeIn(settings.galltime);
+                $('.image_' + image_id + '').stop(true,true).fadeIn(settings.galltime);
                 return false;
 
             });
