@@ -9,7 +9,7 @@ Installation
 
 Demo
 ====
-* [demo](https://github.nandomoreira.me/simplegallery/)
+* [demo](https://nandomoreira.me/simplegallery/)
 
 Usage
 =====
