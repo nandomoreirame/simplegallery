@@ -24,7 +24,8 @@
 
             $(settings.gallthumb).click(function() {
 
-                $(settings.gallcontent).find('img').stop(true,true).fadeOut(settings.galltime).hide();
+
+                $(this).parent().parent().parent().find(settings.gallcontent).find('img').stop(true, true).fadeOut(settings.galltime).hide();
 
                 var img_attr = $(this).find('img').attr("id"),
                     image_id = img_attr.replace('thumb_', '');
