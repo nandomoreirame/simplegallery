@@ -20,7 +20,7 @@ Usage
 
 + *include layer script*
 
-```
+```javascript
 jQuery(document).ready(function($) {
 	$('#gallery').simplegallery();
 });
@@ -29,7 +29,7 @@ jQuery(document).ready(function($) {
 
 + *Add HTML*
 
-```
+```html
 <section id="gallery">
 	<div class="gall-content">
 	    <img src="images/bigs/1.jpg" class="image_1" alt="" />
@@ -77,7 +77,7 @@ Options
 
 Contributors
 ============
- * [Fernando Moreira](https://nandomoreira.me/) - Creator and Maintainer
+ * [@nandomoreirame](https://github.com/nandomoreirame) - Creator and Maintainer
  * [You!)](https://github.com/) - Your Name Here. simply contribute to the project ;)
 
 
