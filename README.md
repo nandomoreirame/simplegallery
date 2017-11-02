@@ -22,7 +22,7 @@ Usage
 
 ```javascript
 jQuery(document).ready(function($) {
-	$('#gallery').simplegallery();
+  $('#gallery').simplegallery();
 });
 ```
 
@@ -31,37 +31,37 @@ jQuery(document).ready(function($) {
 
 ```html
 <section id="gallery">
-	<div class="gall-content">
-	    <img src="images/bigs/1.jpg" class="image_1" alt="" />
-	    <img src="images/bigs/2.jpg" class="image_2" style="display:none" alt="" />
-	    <img src="images/bigs/3.jpg" class="image_3" style="display:none" alt="" />
-	    <img src="images/bigs/4.jpg" class="image_4" style="display:none" alt="" />
-	</div>
+  <div class="gall-content">
+      <img src="images/bigs/1.jpg" class="image_1" alt="" />
+      <img src="images/bigs/2.jpg" class="image_2" style="display:none" alt="" />
+      <img src="images/bigs/3.jpg" class="image_3" style="display:none" alt="" />
+      <img src="images/bigs/4.jpg" class="image_4" style="display:none" alt="" />
+  </div>
 
-	<div class="clear"></div>
+  <div class="clear"></div>
 
-	<div class="gall-thumbnail">
-	    <div class="thumb">
-	        <a href="#" rel="1">
-	            <img src="images/thumbs/1.jpg" id="thumb_1" alt="" />
-	        </a>
-	    </div>
-	    <div class="thumb">
-	        <a href="#" rel="2">
-	            <img src="images/thumbs/2.jpg" id="thumb_2" alt="" />
-	        </a>
-	    </div>
-	    <div class="thumb">
-	        <a href="#" rel="3">
-	            <img src="images/thumbs/3.jpg" id="thumb_3" alt="" />
-	        </a>
-	    </div>
-	    <div class="thumb last">
-	        <a href="#" rel="4">
-	            <img src="images/thumbs/4.jpg" id="thumb_4" alt="" />
-	        </a>
-	    </div>
-	</div>
+  <div class="gall-thumbnail">
+    <div class="thumb">
+      <a href="#" rel="1">
+        <img src="images/thumbs/1.jpg" id="thumb_1" alt="" />
+      </a>
+    </div>
+    <div class="thumb">
+      <a href="#" rel="2">
+        <img src="images/thumbs/2.jpg" id="thumb_2" alt="" />
+      </a>
+    </div>
+    <div class="thumb">
+      <a href="#" rel="3">
+        <img src="images/thumbs/3.jpg" id="thumb_3" alt="" />
+      </a>
+    </div>
+    <div class="thumb last">
+      <a href="#" rel="4">
+        <img src="images/thumbs/4.jpg" id="thumb_4" alt="" />
+      </a>
+    </div>
+  </div>
 </section>
 ```
 
